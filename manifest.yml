@@ -1,0 +1,8 @@
+---
+applications:
+- name: AANAL
+  random-route: true
+  command: python server.py  
+  memory: 128M
+  services: 
+    - sqldb
